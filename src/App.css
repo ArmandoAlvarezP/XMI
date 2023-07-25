@@ -58,6 +58,63 @@ body {
     color:#000000;
 }
 
+.mision {
+  background-color: #ed8bb4;
+}
+
+.mision h3{
+  margin-top: 20px;
+  text-align: start;
+  font-family: "Oswald", arial;
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  padding: 5%;
+}
+
+.mision p{
+  font-family: "Oswald", arial;
+  color: white;
+  font-size: 20px;
+  font-weight: 50;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 5%;
+}
+
+.vision {
+  background-color: #ed5d99;
+}
+
+
+.icon_info_box {
+  color: #fff;
+  opacity: .08;
+  margin-left: 25vw;
+}
+
+
+.vision h3 {
+  margin-top: 20px;
+  text-align: start;
+  font-family: "Oswald", arial;
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  padding: 5%;
+} 
+
+.vision p{
+  font-family: "Oswald", arial;
+  color: white;
+  font-size: 20px;
+  font-weight: 50;
+  margin-top: 20px;
+  margin-bottom: 5%;
+  text-align: justify;
+  padding: 5%;
+}
+
 #mem h3, #mem a, .class_title_mem {
     color: #ed5d99 !important;
     font-size: 55px;

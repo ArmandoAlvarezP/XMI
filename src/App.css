@@ -53,6 +53,7 @@ body {
 }
 
 .class_01_body {
+    position: relative;
     text-align:justify;
     font-size:20px;
     color:#000000;
@@ -60,6 +61,11 @@ body {
 
 .mision {
   background-color: #ed8bb4;
+}
+
+.mision:hover > p {
+  transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .mision h3{
@@ -76,7 +82,7 @@ body {
   font-family: "Oswald", arial;
   color: white;
   font-size: 20px;
-  font-weight: 50;
+  font-weight: 100;
   text-align: justify;
   margin-top: 20px;
   padding: 5%;
@@ -86,6 +92,10 @@ body {
   background-color: #ed5d99;
 }
 
+.vision:hover > p {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+}
 
 .icon_info_box {
   color: #fff;
@@ -118,8 +128,9 @@ body {
 #mem h3, #mem a, .class_title_mem {
     color: #ed5d99 !important;
     font-size: 55px;
-    position: absolute;
     display: flex;
+    margin-top: 10%;
+    text-align: left;
 }
 
 .nav-text:hover{

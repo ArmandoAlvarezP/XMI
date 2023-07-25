@@ -62,8 +62,20 @@ body {
     color: #ed5d99 !important;
     font-size: 55px;
     position: absolute;
-    top: -35vh;
-    left: -45vw;
+    display: flex;
+}
+
+.nav-text:hover{
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.social-icon{
+  transform: scale(1);
+  transition: 0.3s ease-in-out
+}
+.social-icon:hover {
+  transform: scale(1.1);
 }
 
 .class_title_mem_01 {

@@ -133,6 +133,10 @@ body {
     text-align: left;
 }
 
+.nav-text {
+  font-family: "Oswald", arial;
+}
+
 .nav-text:hover{
   text-decoration: underline;
   transform: scale(1.1);
@@ -154,6 +158,9 @@ body {
 @media only screen and (max-width: 768px) {
 .center_in_responsive {
     text-align:center !important;
+}
+.video {
+  margin-bottom: 50%;
 }
 }
 
@@ -190,7 +197,10 @@ body {
     .esquina_inferior {
         top: 60vh;
         left: -10px;
-    }    
+    }   
+    .video {
+      margin-bottom: 50%;
+    } 
 }
 
 @media(min-width: 601px) and (max-width: 1279px){
@@ -198,6 +208,9 @@ body {
             display:block! important;
         
      }
+     .video {
+      margin-bottom: 50%;
+    }
     }   
     
 

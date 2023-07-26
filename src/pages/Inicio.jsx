@@ -51,20 +51,20 @@ export const Inicio = () => {
         <div className='pb-5'>
             <CarouselComp />
         </div>
-        <div className='row mt-5 pb-3'>
+        <div className='row mt-5 pb-5'>
             <h1 className="class_title_mem position-relative">
                 Apoyo a la mujer para fortalecer su estado de ánimo y empoderar
             </h1>
             <hr style={{"color": "#555", "background": "#eeee", "height": "3px"}} />
         </div>
-        <div className='row mt-5 pb-5'>
-            <div className='col-lg-6'>
+        <div className='row mt-5' style={{"paddingBottom": "25%"}}>
+            <div className='col-lg-6 video'>
                 <h3 className='mb-3'>Iniciativa #YoTambienMeCheco</h3>
-                <iframe width="440" height="245" src="https://www.youtube.com/embed/gdverGS1c6g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/gdverGS1c6g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 video'>
                 <h3 className='mb-3'>Método</h3>
-                <iframe width="440" height="245" src="https://www.youtube.com/embed/gdverGS1c6g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/gdverGS1c6g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </>

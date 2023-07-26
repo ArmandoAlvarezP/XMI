@@ -2,7 +2,7 @@ import {CarouselComp} from '../components/Carousel.jsx'
 export const Inicio = () => {
   return (
     <>
-        <div id="#nosotros">
+        <div id="nosotros">
             <h1 className="class_title_mem position-relative">Nosotros</h1>
             <hr style={{"color": "#555", "background": "#eeee", "height": "3px"}} />
             <p className="class_01_body">

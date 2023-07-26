@@ -13,7 +13,7 @@ export const Header = () => {
           <Nav className="me-auto">
           </Nav>
           <Nav style={{ "fontSize": "20px", "fontFamily": "Oswald, arial"}}>
-            <Nav.Link className='nav-text' href="/" style={{"color": "white", "fontSize": "25px"}}>Nosotros</Nav.Link>
+            <Nav.Link className='nav-text' href="#nosotros" style={{"color": "white", "fontSize": "25px"}}>Nosotros</Nav.Link>
             <Nav.Link className='nav-text' eventKey={2} href="/servicios" style={{"color": "white", "fontSize": "25px" }}>Servicios</Nav.Link>
             <Nav.Link className='nav-text' eventKey={3} href="/tecnologia" style={{"color": "white", "fontSize": "25px" }}>Tecnología</Nav.Link>
           </Nav>
